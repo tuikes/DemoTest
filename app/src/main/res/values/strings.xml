@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">DemoTest</string>
+
+    <!-- 权限相关-->
+    <string name="permission_title">提示</string>
+    <string name="permission_sure">确定</string>
+    <string name="permission_msg_storage">我们需要获取您的SD卡储存权限，用于存储地图数据！</string>
+    <string name="permission_msg_read_phone_state">我们需要获取您的手机标识符，如果您拒绝，可能部分功能无法正常使用！</string>
+    <string name="permission_msg_location">我们需要获取您的位置权限，如果您拒绝，将无法使用定位的功能！</string>
+    <string name="permission_msg_camera">我们需要获取您的相机权限，用于扫一扫等功能。如果您拒绝，将无法使用二维码扫描等功能！</string>
+    <string name="permission_not_support_bluetooth">我们需要获取您的相机权限，用于扫一扫等功能。如果您拒绝，将无法使用二维码扫描等功能！</string>
+</resources>

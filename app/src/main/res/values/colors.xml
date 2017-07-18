@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="bg_app">#FFFFFF</color>
+    <color name="transparent">#00000000</color>
+
+    <color name="result_view">#b0000000</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="possible_result_points">#c0ffff00</color>
+
+    <color name="bg_btn_blue">#0EA3FF</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+    <color name="red">#FFFF0000</color>
+    <color name="bg_point">#6CADFF</color>
+
+    <color name="font_color_gray">#333333</color>
+    <color name="hint_color_gray">#cccccc</color>
+    <color name="line_color_gray">#E8E8E8</color>
+
+    <color name="home_see_point_detail">#0ea3ff</color>
+    <color name="bg_home_point">#e65fafff</color>
+
+    <!--蜂鸟地图开始-->
+    <color name="blue">#26befd</color>
+    <color name="gray">#5ff8f8f8</color>
+    <color name="driver_line">#ededed</color>
+    <color name="hint">#999999</color>
+    <color name="selector">#EEEEEE</color>
+    <!--蜂鸟地图结束-->
+
+    <color name="dialog_outside">#80808080</color>
+
+</resources>

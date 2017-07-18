@@ -1,0 +1,16 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">@color/bg_app</item>
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+
+    <style name="LoadingTheme" parent="AppTheme">
+        <item name="android:windowBackground">@mipmap/ic_app_start</item>
+    </style>
+
+    <style name="update_dialog_style" parent="@android:style/Theme.Material.Light.Dialog.NoActionBar.MinWidth">
+    </style>
+
+</resources>

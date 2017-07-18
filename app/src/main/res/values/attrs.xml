@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TopBar">
+        <attr name="bg_statusBar" format="color"/>
+        <attr name="srcLeft" format="reference"/>
+        <attr name="txLeft" format="string|reference"/>
+        <attr name="txTitle" format="string"/>
+        <attr name="srcRight" format="reference"/>
+        <attr name="txRight" format="string"/>
+        <attr name="mBackground" format="color|reference"/>
+        <attr name="txTitleColor" format="color"/>
+        <attr name="txLeftColor" format="color"/>
+        <attr name="txRightColor" format="color"/>
+        <attr name="function">
+            <flag name="txLeft" value="1"/>
+            <flag name="txRight" value="2"/>
+            <flag name="txTitle" value="4"/>
+            <flag name="btnLeft" value="8"/>
+            <flag name="btnRight" value="16"/>
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="CircleImageView">
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color" />
+        <attr name="border_overlay" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="ExtendedListView">
+        <attr name="scrollBarPanel" format="reference" />
+        <attr name="scrollBarPanelInAnimation" format="reference" />
+        <attr name="scrollBarPanelOutAnimation" format="reference" />
+    </declare-styleable>
+</resources>

@@ -1,0 +1,30 @@
+<resources>
+
+    <!--
+        Base application theme for API 14+. This theme completely replaces
+        AppBaseTheme from BOTH res/values/styles.xml and
+        res/values-v11/styles.xml on API 14+ devices.
+    -->
+    <style name="AppTheme" parent="android:style/Theme.Holo.Light.NoActionBar">
+        <item name="android:windowBackground">@color/bg_app</item>
+    </style>
+
+    <style name="LoadingTheme" parent="AppTheme">
+        <item name="android:windowBackground">@mipmap/ic_app_start</item>
+    </style>
+
+    <style name="Translucent" parent="android:style/Theme.Holo.Light.NoActionBar">
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <style name="update_dialog_style" parent="@android:style/Theme.Holo.Light.Dialog.NoActionBar">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+</resources>
